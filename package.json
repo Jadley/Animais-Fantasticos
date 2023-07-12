@@ -1,0 +1,20 @@
+{
+  "name": "animais-babel",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-transform-runtime": "^7.22.7",
+    "@babel/preset-env": "^7.22.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
