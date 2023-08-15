@@ -1,261 +1,256 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Animais Fantásticos</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="./css/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;600;700&family=Playfair+Display+SC&display=swap"
-            rel="stylesheet"
-        />
-        <script>
-            document.documentElement.className += "js";
-        </script>
-    </head>
-    <body>
-        <div class="grid-container">
-            <nav class="menu" data-menu="suave">
-                <button
-                    data-menu="button"
-                    aria-expanded="false"
-                    aria-controls="menu"
-                >
-                    Menu
-                </button>
-                <ul data-menu="list" id="menu">
-                    <li><a href="#animais">Animais</a></li>
-                    <li data-dropdown>
-                        <a href="sobre.html">Sobre</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="empresa.html">A Empresa</a></li>
-                            <li><a href="equipe.html">Equipe</a></li>
-                            <li><a href="socios.html">Socios</a></li>
-                            <li>
-                                <a href="invertidores.html">Inverstidores</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#faq">Faq</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a data-modal="abrir" href="login.html">Login →</a></li>
-                </ul>
-            </nav>
-            <section
-                class="grid-section animais"
-                data-anime="scroll"
-                id="animais"
-            >
-                <h1 class="titulo">Animais Fantásticos</h1>
-                <ul class="animais-lista" data-tab="menu">
-                    <li>
-                        <img src="./img/aligator2.jpg" alt="Imagem de jacaré" />
-                    </li>
-                    <li>
-                        <img src="./img/eagle.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="./img/lion.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="./img/tiger.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="./img/white-sharkw.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="./img/wolf.jpg" alt="" />
-                    </li>
-                </ul>
-                <div class="animais-descricao" data-tab="content">
-                    <section data-anime="show-right">
-                        <h2>Jacaré</h2>
-                        <p>
-                            Jacaré (do tupi "îakaré" ou "jaeça-karé": "aquele
-                            que olha de lado") também chamado aligátor (do
-                            inglês "alagarto" ou "alligator"; do espanhol "el
-                            lagarto") e caimão (do taíno "kaiman"), são
-                            crocodilianos da família Alligatoridae, semelhantes
-                            aos crocodilos, dos quais se distinguem pela cabeça
-                            mais curta e larga, pela presença de membranas
-                            interdigitais (semelhante barbatana) nos polegares
-                            das patas traseiras e, com relação à dentição onde o
-                            quarto dente canino da mandíbula inferior encaixa em
-                            um furo da mandíbula superior, enquanto que nos
-                            crocodilos sobressai para fora, quando têm a boca
-                            fechada.
-                        </p>
-                    </section>
-                    <section data-anime="show-right">
-                        <h2>Águia</h2>
-                        <p>
-                            A águia é o nome comum dado algumas aves de rapina
-                            da família Accipitridae, geralmente de grande porte,
-                            carnívoras, de grande acuidade visual.
-                        </p>
-                        <p>
-                            O nome é atribuído a animais pertencentes a gêneros
-                            diversos e não corresponde a nenhum clade
-                            taxonômico. Por vezes, dentro de um mesmo gênero
-                            ocorrem espécies conhecidas popularmente por gavião
-                            ou búteo.
-                        </p>
-                    </section>
-                    <section data-anime="show-down">
-                        <h2>Leão</h2>
-                        <p>
-                            O leão [feminino: leoa] (nome científico: Panthera
-                            leo) é uma espécie de mamífero carnívoro do gênero
-                            Panthera e da família Felidae. A espécie é
-                            atualmente encontrada na África subsaariana e na
-                            Ásia, com uma única população remanescente em
-                            perigo, no Parque Nacional da Floresta de Gir,
-                            Gujarat, Índia.
-                        </p>
-                    </section>
-                    <section data-anime="show-down">
-                        <h2>Tigre</h2>
-                        <p>
-                            O tigre [feminino: tigresa] (nome científico:
-                            Panthera tigris) é um mamífero carnívoro da família
-                            dos felídeos, que habita o continente asiático.
-                            Dentre suas subespécies é o maior entre todos os
-                            felinos selvagens do mundo.
-                        </p>
-                    </section>
-                    <section data-anime="show-right">
-                        <h2>Tubarão-branco</h2>
-                        <p>
-                            O tubarão-branco, tubarão-anequim, cação-anequim ou
-                            cação-branco (nome científico: Carcharodon
-                            carcharias) é uma espécie de grande lamniforme que
-                            pode ser encontrada nas águas superficiais costeiras
-                            de todos os principais oceanos. É notável por seu
-                            tamanho, com indivíduos do sexo feminino maiores
-                            crescendo até 6,1 metros (20 pés) de comprimento e 1
-                            905–2 268 quilos (4 200–5 000 libras) de peso na
-                            maturidade.
-                        </p>
-                    </section>
-                    <section data-anime="show-right">
-                        <h2>Lobo</h2>
-                        <p>
-                            O lobo (também chamado de lobo-cinzento; nome
-                            científico: Canis lupus) é uma espécie de mamífero
-                            canídeo do gênero Canis. É um sobrevivente da Era do
-                            Gelo, originário do Pleistoceno Superior, cerca de
-                            300 mil anos atrás. É o maior membro remanescente
-                            selvagem da família canidae.
-                        </p>
-                    </section>
-                </div>
-            </section>
-            <section class="grid-section faq" data-anime="scroll" id="faq">
-                <h1 class="titulo">FAQ</h1>
-                <dl class="faq-lista" data-anime="accordion">
-                    <dt>Qual a idade dos animais?</dt>
-                    <dd>
-                        As raposas são animais mamíferos e onívoros pertencentes
-                        à família Canidae. São vulpídeos de porte médio,
-                        caracterizados por um focinho comprido e uma cauda longa
-                        e peluda.
-                    </dd>
-                    <dt>Eles são fantásticos?</dt>
-                    <dd>
-                        Também apresentam como particularidade suas pupilas
-                        ovais, semelhantes às pupilas verticais dos felídeos.
-                    </dd>
-                    <dt>Qual a diferença?</dt>
-                    <dd>
-                        As raposas são animais mamíferos e onívoros pertencentes
-                        à família Canidae. São vulpídeos de porte médio,
-                        caracterizados por um focinho comprido e uma cauda longa
-                        e peluda.
-                    </dd>
-                    <dt>Como proteger?</dt>
-                    <dd>
-                        Também apresentam como particularidade suas pupilas
-                        ovais, semelhantes às pupilas verticais dos felídeos.
-                    </dd>
-                </dl>
-            </section>
-
-            <section class="grid-section numeros" data-anime="scroll">
-                <h1 class="titulo">Números</h1>
-                <div class="numeros-grid"></div>
-            </section>
-
-            <section
-                class="grid-section contato"
-                data-anime="scroll"
-                id="contato"
-            >
-                <h1 class="titulo">Contato</h1>
-                <div
-                    class="mapa"
-                    data-tooltip
-                    aria-label="Próximo ao centro de Água-fria"
-                >
-                    <img src="./img/mapa.png" />
-                </div>
-                <ul class="dados">
-                    <li>jd_felipe@outlook.com</li>
-                    <li>+55 (81)91234-5678</li>
-                    <li>Arruda</li>
-                    <li>Recife - PE</li>
-                    <li>
-                        Doe <span class="btc-preco">0</span> Bitcoins para nos
-                        ajudar!
-                    </li>
-                    <li data-semana="1,2,3,4,5" data-horario="8,18">
-                        Seg à Sex das 8 as 18
-                    </li>
-                </ul>
-            </section>
-
-            <footer class="copy">
-                <p>Todos os direitos reservados.</p>
-            </footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Animais Fantásticos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;600;700&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += "js";
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Socios</a></li>
+              <li>
+                <a href="invertidores.html">Inverstidores</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        </ul>
+      </nav>
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos</h1>
+        <ul class="animais-lista" data-tab="menu">
+          <li>
+            <img src="./img/aligator2.jpg" alt="Imagem de jacaré" />
+          </li>
+          <li>
+            <img src="./img/eagle.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./img/lion.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./img/tiger.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./img/white-sharkw.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./img/wolf.jpg" alt="" />
+          </li>
+        </ul>
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Jacaré</h2>
+            <p>
+              Jacaré (do tupi "îakaré" ou "jaeça-karé": "aquele que olha de
+              lado") também chamado aligátor (do inglês "alagarto" ou
+              "alligator"; do espanhol "el lagarto") e caimão (do taíno
+              "kaiman"), são crocodilianos da família Alligatoridae, semelhantes
+              aos crocodilos, dos quais se distinguem pela cabeça mais curta e
+              larga, pela presença de membranas interdigitais (semelhante
+              barbatana) nos polegares das patas traseiras e, com relação à
+              dentição onde o quarto dente canino da mandíbula inferior encaixa
+              em um furo da mandíbula superior, enquanto que nos crocodilos
+              sobressai para fora, quando têm a boca fechada.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Águia</h2>
+            <p>
+              A águia é o nome comum dado algumas aves de rapina da família
+              Accipitridae, geralmente de grande porte, carnívoras, de grande
+              acuidade visual.
+            </p>
+            <p>
+              O nome é atribuído a animais pertencentes a gêneros diversos e não
+              corresponde a nenhum clade taxonômico. Por vezes, dentro de um
+              mesmo gênero ocorrem espécies conhecidas popularmente por gavião
+              ou búteo.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Leão</h2>
+            <p>
+              O leão [feminino: leoa] (nome científico: Panthera leo) é uma
+              espécie de mamífero carnívoro do gênero Panthera e da família
+              Felidae. A espécie é atualmente encontrada na África subsaariana e
+              na Ásia, com uma única população remanescente em perigo, no Parque
+              Nacional da Floresta de Gir, Gujarat, Índia.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Tigre</h2>
+            <p>
+              O tigre [feminino: tigresa] (nome científico: Panthera tigris) é
+              um mamífero carnívoro da família dos felídeos, que habita o
+              continente asiático. Dentre suas subespécies é o maior entre todos
+              os felinos selvagens do mundo.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Tubarão-branco</h2>
+            <p>
+              O tubarão-branco, tubarão-anequim, cação-anequim ou cação-branco
+              (nome científico: Carcharodon carcharias) é uma espécie de grande
+              lamniforme que pode ser encontrada nas águas superficiais
+              costeiras de todos os principais oceanos. É notável por seu
+              tamanho, com indivíduos do sexo feminino maiores crescendo até 6,1
+              metros (20 pés) de comprimento e 1 905–2 268 quilos (4 200–5 000
+              libras) de peso na maturidade.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Lobo</h2>
+            <p>
+              O lobo (também chamado de lobo-cinzento; nome científico: Canis
+              lupus) é uma espécie de mamífero canídeo do gênero Canis. É um
+              sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
+              cerca de 300 mil anos atrás. É o maior membro remanescente
+              selvagem da família canidae.
+            </p>
+          </section>
         </div>
+      </section>
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            A definição da idade em animais pode variar de acordo com a espécie.
+            Em muitos animais, a idade é determinada com base em fatores como o
+            ciclo de vida, o desenvolvimento físico e outros marcadores
+            biológicos.
+          </dd>
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            Sim, os animais são realmente fantásticos! A diversidade e
+            complexidade da vida animal na Terra é surpreendente e inspiradora.
+            Cada espécie possui características únicas e adaptações incríveis
+            que lhes permitem sobreviver e prosperar em diferentes ambientes e
+            condições.
+          </dd>
+          <dt>Qual a diferença?</dt>
+          <dd>
+            A diferença entre os animais está relacionada a uma variedade de
+            fatores, como suas características físicas, comportamentais,
+            reprodutivas, habitats e classificações científicas. Animais são
+            extremamente diversos e podem ser agrupados em diferentes categorias
+            com base em suas características específicas.
+          </dd>
+          <dt>Como proteger?</dt>
+          <dd>
+            Proteger os animais é uma preocupação importante para a conservação
+            da biodiversidade e para o equilíbrio dos ecossistemas. Existem
+            várias maneiras pelas quais podemos contribuir para a proteção dos
+            animais e de seus habitats.
+          </dd>
+        </dl>
+      </section>
 
-        <section class="modal-container" data-modal="container">
-            <div class="modal">
-                <button data-modal="fechar" class="fechar">X</button>
+      <section class="grid-section galeria" data-anime="scroll">
+        <ul class="custom-controls">
+          <li><img src="./img/slide/foto1-thumb.jpg" alt="" /></li>
+          <li><img src="./img/slide/foto2-thumb.jpg" alt="" /></li>
+          <li><img src="./img/slide/foto3-thumb.jpg" alt="" /></li>
+          <li><img src="./img/slide/foto4-thumb.jpg" alt="" /></li>
+          <li><img src="./img/slide/foto5-thumb.jpg" alt="" /></li>
+          <li><img src="./img/slide/foto6-thumb.jpg" alt="" /></li>
+        </ul>
 
-                <form action="">
-                    <label for="email">Email</label>
-                    <input
-                        type="text"
-                        for="email"
-                        id="email"
-                        autocomplete="on"
-                    />
-                    <label for="senha">Senha</label>
-                    <input
-                        type="password"
-                        for="senha"
-                        id="senha"
-                        autocomplete="on"
-                    />
-                    <button type="submit">Entrar</button>
-                </form>
-            </div>
-        </section>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li><img src="img/slide/foto1.jpg" alt="" /></li>
+            <li><img src="img/slide/foto2.jpg" alt="" /></li>
+            <li><img src="img/slide/foto3.jpg" alt="" /></li>
+            <li><img src="img/slide/foto4.jpg" alt="" /></li>
+            <li><img src="img/slide/foto5.jpg" alt="" /></li>
+            <li><img src="img/slide/foto6.jpg" alt="" /></li>
+          </ul>
+        </div>
+      </section>
 
-        <script
-            type="text/javascript"
-            src="https://unpkg.com/default-passive-events"
-        ></script>
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid"></div>
+      </section>
 
-        <script type="module" src="./main.js"></script>
-    </body>
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label="Próximo ao centro de Água-fria"
+        >
+          <img src="./img/mapa.png" />
+        </div>
+        <ul class="dados">
+          <li>jd_felipe@outlook.com</li>
+          <li>+55 (81)91234-5678</li>
+          <li>Arruda</li>
+          <li>Recife - PE</li>
+          <li>
+            Doe <span class="btc-preco">0</span> Bitcoins para nos ajudar!
+          </li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18">
+            Seg à Sex das 8 as 18
+          </li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>Todos os direitos reservados.</p>
+      </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" autocomplete="on" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" autocomplete="on" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/default-passive-events"
+    ></script>
+
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
